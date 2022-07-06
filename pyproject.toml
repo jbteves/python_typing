@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python_typing"
+version = "0.1.0"
+description = ""
+authors = ["Joshua Teves <joshua.teves@nih.gov>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.23.0"
+beartype = "^0.10.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+nptyping = "^2.2.0"
+numpy = "^1.23.0"
+flake8 = "^4.0.1"
+pycodestyle = "^2.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
