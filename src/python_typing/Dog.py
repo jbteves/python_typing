@@ -1,6 +1,6 @@
 """This module implements a Dog."""
 
-from beartype import beartype  # type: ignore
+from beartype import beartype
 
 
 class Dog:

@@ -10,6 +10,7 @@ doc_check:
 	pydocstyle src/python_typing
 
 type_check:
+	export MYPPYPATH=./stubs
 	mypy \
 		--disallow-any-generics \
 		--disallow-untyped-defs \
@@ -23,5 +24,6 @@ type_check:
 checks: lint test doc_check type_check
 
 dev_setup:
-	poetry install
 	poetry shell
+	poetry install
+	export 

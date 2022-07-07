@@ -8,6 +8,7 @@ authors = ["Joshua Teves <joshua.teves@nih.gov>"]
 python = "^3.8"
 numpy = "^1.23.0"
 beartype = "^0.10.4"
+mypy = "^0.961"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
